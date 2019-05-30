@@ -4,8 +4,8 @@
 ## Projects
 > Here is a selection of my current/past projects
 
-#### DEVN - Dialogue Editor for Visual Novels
-> A custom Unity Editor tool. A node-based graph editor for creating visual novel scenes. Find it 
+### DEVN - Dialogue Editor for Visual Novels
+A custom Unity Editor tool. A node-based graph editor for creating visual novel scenes. Find it 
 <a href="https://dillonhandyside.github.io/DEVN-DialogueEditorForVisualNovels/">here</a> or on 
 <a href="https://github.com/DillonHandyside/DEVN-DialogueEditorForVisualNovels/">GitHub
 
