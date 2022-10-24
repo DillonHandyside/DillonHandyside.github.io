@@ -1,0 +1,47 @@
+.about-status-container {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.about-status {
+    padding-top: 0.5rem;
+}
+
+.about-status b {
+    color: rgb(107, 255, 107);
+}
+
+.about-status-content {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.about-selfie {
+    width: 12rem;
+}
+
+.about-selfie img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    
+    margin-top: auto;
+}
+
+.about-bio {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.about-lists {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about-list > li {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,7 @@
+.experiences-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    gap: 1rem;
+}

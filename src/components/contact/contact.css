@@ -1,0 +1,47 @@
+.contact-cards {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-card {
+    width: 128px;
+    height: 128px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-bg);
+    transition: var(--transition);
+}
+
+.contact-card-icon {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-description {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-preferred {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.contact-texts {
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-text {
+    display: flex;
+    gap: 0.5rem;
+}
