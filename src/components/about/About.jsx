@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaGraduationCap } from 'react-icons/fa'
 import { BsDot } from 'react-icons/bs'
 import './about.css'
 import AboutCTA from './AboutCTA'
@@ -20,15 +19,15 @@ const About = (props) => {
           <AboutList 
             title='Skills' 
             icon={<BsDot />}
-            content={['Programming', 'Unity', 'Full-Stack', <a href='#skills'>See Skills</a>]} />
+            content={['Programming', 'Unity', 'Full-Stack', 'Architecture', <a href='#skills'>See Skills</a>]} />
           <AboutList 
             title='Hobbies' 
             icon={<BsDot />}
-            content={['Anime', 'Card Games', 'Programming', 'Walking & Gym']} />
+            content={['Anime', 'Card Games', 'Programming', 'Walking', 'Gym']} />
           <AboutList 
             title='Interested In' 
             icon={<BsDot />}
-            content={['Content Creation', 'Aquaponics & Sustainability', 'Philosophy', 'Learning, in general']} />
+            content={['AWS Cloud Certifications', 'Content Creation', 'Aquaponics & Sustainability', 'Philosophy', 'Innovation']} />
         </div>
       </div>
       <AboutCTA />
