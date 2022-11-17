@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.57ea822f.css",
-    "main.js": "/static/js/main.8afeeca5.js",
+    "main.css": "/static/css/main.fdf66552.css",
+    "main.js": "/static/js/main.6a25a495.js",
     "static/media/CV_Thumbnail_Light.jpg": "/static/media/CV_Thumbnail_Light.0a5fedbe3d2e8f96745a.jpg",
     "static/media/Experience_Kmart.jpg": "/static/media/Experience_Kmart.47b3fcbc4300a7a506b5.jpg",
     "static/media/CV_Thumbnail_Dark.jpg": "/static/media/CV_Thumbnail_Dark.9ef135a93e9ca7b9b2d2.jpg",
@@ -13,11 +13,11 @@
     "static/media/Projects_DEVN.png": "/static/media/Projects_DEVN.cb99955051160c72808f.png",
     "static/media/Projects_SFSB.png": "/static/media/Projects_SFSB.c38461a0fd1dc67ce731.png",
     "index.html": "/index.html",
-    "main.57ea822f.css.map": "/static/css/main.57ea822f.css.map",
-    "main.8afeeca5.js.map": "/static/js/main.8afeeca5.js.map"
+    "main.fdf66552.css.map": "/static/css/main.fdf66552.css.map",
+    "main.6a25a495.js.map": "/static/js/main.6a25a495.js.map"
   },
   "entrypoints": [
-    "static/css/main.57ea822f.css",
-    "static/js/main.8afeeca5.js"
+    "static/css/main.fdf66552.css",
+    "static/js/main.6a25a495.js"
   ]
 }
