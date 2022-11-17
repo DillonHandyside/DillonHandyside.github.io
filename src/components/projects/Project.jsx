@@ -1,10 +1,11 @@
 import React from 'react'
 import Skill from '../skills/Skill'
+import ReactGA from 'react-ga'
 
 const Project = (props) => {
   return (
     <div className='card'>
-        <img src={props.image} />
+        <img src={props.image} alt={props.projectName}/>
         <div className='card-content'>
             <h3>{props.projectName}</h3>
             <h5>{props.description}</h5>
@@ -14,7 +15,8 @@ const Project = (props) => {
                 })}
             </div>
             <div className='card-cta'>
-              <a href={props.url} className='btn btn-primary' target='_blank'>{props.urlIcon} {props.urlTitle}</a>
+              <a onClick={()=> ReactGA.event({ category: 'Project', action: props.projectName})}
+              href={props.url} className='btn btn-primary' target='_blank'>{props.urlIcon} {props.urlTitle}</a>
             </div>
         </div>
     </div>
